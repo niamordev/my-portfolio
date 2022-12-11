@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import "./styles/style.css";
 import DataProjects from "./data/DataProjects.json";
-import Introduction from "./pages/introduction/Introduction";
-import MyProjects from "./pages/my-projects/MyProjects";
+import Introduction from "./components/introduction/Introduction";
+import MyProjects from "./components/my-projects/MyProjects";
 import { gsap } from 'gsap'
 import Nav from "./components/nav/Nav";
-import About from "./pages/about/About";
-import Footer from "./pages/footer/Footer";
+import About from "./components/about/About";
+import Footer from "./components/footer/Footer";
 import { ScrollToPlugin } from 'gsap/dist/ScrollToPlugin';
 
 gsap.registerPlugin(ScrollToPlugin);

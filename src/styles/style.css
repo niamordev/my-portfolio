@@ -214,7 +214,7 @@ footer .copyrights {
 
 @media screen and (min-width: 1144px) {
   #introduction .logo {
-    width: 150px;
+    width: 130px;
   }
 }
 #myProjects {
@@ -222,6 +222,7 @@ footer .copyrights {
   flex-direction: column;
   gap: 30px;
   margin: 100px 0 100px 0;
+  padding-top: 100px;
 }
 #myProjects .title {
   width: -webkit-fit-content;
@@ -295,6 +296,7 @@ footer .copyrights {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  padding-top: 100px;
 }
 #about .title {
   width: -webkit-fit-content;
