@@ -12,9 +12,9 @@ export default function Home ({handleTest}) {
       <div className="txt-home">
         <h1>Hello, I'm <span className="blue-text">Niamor.</span> </h1>
         <p>A french Front-end developper web .</p>
-        <button className="view-more">
+        <a href="#about" className="view-more">
           View more
-        </button>
+        </a>
       </div>
     </section>
   );
