@@ -172,6 +172,10 @@ footer {
 footer .copyrights {
   text-align: center;
 }
+footer #myEmail {
+  color: #a3b8ef;
+  cursor: pointer;
+}
 
 #introduction {
   height: 100vh;
@@ -196,17 +200,29 @@ footer .copyrights {
 #introduction .view-more {
   background: transparent;
   border: 2px solid #21262e;
-  padding: 6px 20px;
-  max-width: 100px;
+  padding: 0 0 0 20px;
   margin: auto;
   font-size: 18px;
   border-radius: 4px;
   cursor: pointer;
   transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b6beca;
+}
+#introduction .view-more svg {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  scale: 0.7;
 }
 #introduction .view-more:hover {
   border: 2px solid #a3b8ef;
   color: #a3b8ef;
+}
+#introduction .view-more:hover svg path {
+  fill: #a3b8ef;
 }
 #introduction .hero {
   position: fixed;
@@ -313,21 +329,24 @@ footer .copyrights {
 #about .content .container-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  gap: 15px;
 }
 #about .content .container-links a {
   background: transparent;
   border: 2px solid #21262e;
   padding: 5px 10px;
   width: 30%;
-  margin: auto;
   text-align: center;
   color: #b6beca;
   font-weight: 700;
   font-size: 17px;
+  transition: 0.4s;
+  border-radius: 4px;
 }
 #about .content .container-links a:hover {
   color: #a3b8ef;
+  border: 2px solid #a3b8ef;
 }
 #about .content .about-me {
   display: flex;
@@ -385,5 +404,9 @@ footer .copyrights {
     border: none !important;
     padding: 10px 14px !important;
     text-align: left !important;
+  }
+  #about .container-links a:hover {
+    color: #a3b8ef;
+    transform: translateX(10px);
   }
 }/*# sourceMappingURL=style.css.map */

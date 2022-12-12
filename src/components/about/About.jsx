@@ -8,14 +8,13 @@ export default function About() {
         <div className="container-links">
           <a href="https://github.com/niamordev" target='_blank'>Github</a>
           <a href="https://twitter.com/niamor_dvlp" target='_blank'>Twitter</a>
-          <a href="">Email Me</a>
+          {/* <a href="">E-mail: niamor.development@proton.me</a> */}
         </div>
         <div className="about-me">
         <div className="description">
           <p>
             {" "}
-            Hello! I am a French developer web in the Front-end side. I'm completely autodidact, I learn everything with
-            a lot of tutorials
+            Hello! I am a French <span className="blue-text">developer web</span> in the front-end field. I'm <span className="blue-text">completely self-taught</span>.
             <br /><br /> I have been programming for about<span className="blue-text"> 1 years </span>now. Here is my
             current tech-stack.
           </p>

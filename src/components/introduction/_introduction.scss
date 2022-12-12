@@ -23,18 +23,32 @@
   .view-more {
     background: transparent;
     border: 2px solid #21262e;
-    padding: 6px 20px;
-    max-width: 100px;
+    padding: 0 0 0 20px ;
     margin: auto;
     font-size: 18px;
     border-radius: 4px;
     cursor: pointer;
     transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $text;
+
+    svg{
+      width: fit-content;
+      scale: .7;
+    }
 
     &:hover {
       border: 2px solid $blue;
       color: $blue;
     }
+
+
+  }
+
+  .view-more:hover svg path{
+    fill: #a3b8ef;
   }
 
   .hero {
