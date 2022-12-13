@@ -1,7 +1,7 @@
 [
     
     {
-        "id": 11,
+        "name": "ecommerce-audiophile-vite-project",
         "link": "https://niamordev.github.io/ecommerce-audiophile-vite-project/",
         "img": "assets/images/all-project/ecommerce-audiophile.png",
         "tags":[ "scss", "js", "reactjs"],
@@ -9,9 +9,17 @@
         "level": "bigProject",
         "importantProject": true
     },
-
     {
-        "id": 9,
+        "name": "designo-multipage-website-master",
+        "link": "https://niamordev.github.io/designo-multipage-website-master/",
+        "img": "assets/images/all-project/designo-multipage-website-master.png",
+        "tags":[ "scss", "js", "reactjs"],
+        "codeSource": "https://github.com/niamordev/designo-multipage-website-master",
+        "level": "bigProject",
+        "importantProject": false
+    },
+    {
+        "name": "countries-app",
         "link": "https://niamordev.github.io/countries-app/",
         "img": "assets/images/all-project/country-app.png",
         "tags":[ "scss", "js", "reactjs"],
@@ -21,7 +29,7 @@
     },
 
     {
-        "id": 10,
+        "name": "art-gallery-website",
         "link": "https://niamordev.github.io/art-gallery-website/index.html",
         "img": "assets/images/all-project/art-gallery-website.png",
         "tags":[ "scss", "js", "html"],
@@ -32,7 +40,7 @@
 
 
     {
-        "id": 1,
+        "name": "space-tourism-website-main",
         "link": "https://niamordev.github.io/space-tourism-website-main/index.html",
         "img": "assets/images/all-project/space-tourism.jpg",
         "tags":[ "html", "scss", "js"],
@@ -41,7 +49,7 @@
         "importantProject": false
     },
     {
-        "id": 2,
+        "name": "ecommerce-product-page-main",
         "link": "https://niamordev.github.io/ecommerce-product-page-main",
         "img": "assets/images/all-project/product.jpg",
         "tags":[ "html", "scss", "js"],
@@ -50,7 +58,7 @@
         "importantProject": false
     },
     {
-        "id": 3,
+        "name": "social-media-dashboard-with-theme-switcher-master",
         "link": "https://niamordev.github.io/social-media-dashboard-with-theme-switcher-master",
         "img": "assets/images/all-project/switcher.jpg",
         "tags":[ "html", "scss", "js"],
@@ -59,7 +67,7 @@
         "importantProject": false
     },
     {
-        "id": 4,
+        "name": "news-homepage-main",
         "link": "https://niamordev.github.io/news-homepage-main",
         "img": "assets/images/all-project/blog-page.jpg",
         "tags":[ "html", "scss", "js"],
@@ -68,7 +76,7 @@
         "importantProject": false
     },
     {
-        "id": 5,
+        "name": "manage-landing-page-master",
         "link": "https://niamordev.github.io/manage-landing-page-master",
         "img": "assets/images//all-project/design-page.jpg",
         "tags":[ "html", "css", "js"],
@@ -77,7 +85,7 @@
         "importantProject": false
     },
     {
-        "id": 6,
+        "name": "room-homepage-master",
         "link": "https://niamordev.github.io/room-homepage-master",
         "img": "assets/images/all-project/room.jpg",
         "tags":[ "html", "scss", "js"],
@@ -87,7 +95,7 @@
     },
 
     {
-        "id": 8,
+        "name": "easybank-landing-page-master",
         "link": "https://niamordev.github.io/easybank-landing-page-master",
         "img": "assets/images/all-project/easybank.jpg",
         "tags":[ "html", "css", "js"],
