@@ -268,7 +268,7 @@ footer #myEmail {
 #myProjects .all-projects .container-project {
   border-radius: 10px;
   overflow: hidden;
-  filter: brightness(0.5);
+  filter: brightness(0.8);
   cursor: pointer;
   transition: 0.3s;
   border: 2px solid #252525;
@@ -276,7 +276,7 @@ footer #myEmail {
 }
 #myProjects .all-projects .container-project:hover {
   border-radius: 10px;
-  filter: brightness(1);
+  filter: brightness(1) !important;
   scale: 1.05;
 }
 #myProjects .all-projects img {
@@ -308,6 +308,11 @@ footer #myEmail {
   z-index: 10;
 }
 
+@media screen and (min-width: 700px) {
+  #myProjects .container-project {
+    filter: brightness(0.5) !important;
+  }
+}
 #about {
   display: flex;
   flex-direction: column;

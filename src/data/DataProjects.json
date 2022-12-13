@@ -74,14 +74,7 @@
         "codeSource": null,
         "importantProject": false
     },
-    {
-        "id": 7,
-        "link": "https://niamordev.github.io/time-tracking-dashboard-main",
-        "img": "assets/images/all-project/time-tracking.jpg",
-        "tags":[ "html", "css", "js"],
-        "codeSource": null,
-        "importantProject": false
-    },
+
     {
         "id": 8,
         "link": "https://niamordev.github.io/easybank-landing-page-master",

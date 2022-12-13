@@ -1,7 +1,7 @@
 #myProjects {
   display: flex;
   flex-direction: column;
-    gap: 30px;
+  gap: 30px;
   margin: 100px 0 100px 0;
   padding-top: 100px;
 
@@ -10,14 +10,13 @@
     border-bottom: 4px solid $blue;
   }
 
-  .content{
+  .content {
     display: flex;
     flex-direction: column;
     gap: 40px;
-
   }
 
-  .intro{
+  .intro {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -34,7 +33,7 @@
     .container-project {
       border-radius: 10px;
       overflow: hidden;
-      filter: brightness(0.5);
+      filter: brightness(0.8);
       cursor: pointer;
       transition: 0.3s;
       border: 2px solid #252525;
@@ -43,7 +42,7 @@
 
     .container-project:hover {
       border-radius: 10px;
-      filter: brightness(1);
+      filter: brightness(1) !important;
       scale: 1.05;
     }
     img {
@@ -81,4 +80,10 @@
   }
 }
 
-
+@media screen and (min-width: 700px) {
+  #myProjects {
+    .container-project {
+      filter: brightness(0.5) !important;
+    }
+  }
+}
