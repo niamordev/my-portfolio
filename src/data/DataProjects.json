@@ -1,12 +1,21 @@
 [
     
     {
-        "id": 9,
+        "id": 11,
         "link": "https://niamordev.github.io/ecommerce-audiophile-vite-project/",
         "img": "assets/images/all-project/ecommerce-audiophile.png",
         "tags":[ "scss", "js", "reactjs"],
         "codeSource": "https://github.com/niamordev/ecommerce-audiophile-vite-project",
         "importantProject": true
+    },
+
+    {
+        "id": 10,
+        "link": "https://niamordev.github.io/art-gallery-website/index.html",
+        "img": "assets/images/all-project/art-gallery-website.png",
+        "tags":[ "scss", "js", "html"],
+        "codeSource": null,
+        "importantProject": false
     },
 
     {
