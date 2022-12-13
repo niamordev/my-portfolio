@@ -41,10 +41,10 @@
 
     {
         "name": "space-tourism-website-main",
-        "link": "https://niamordev.github.io/space-tourism-website-main/index.html",
+        "link": "https://niamordev.github.io/space-tourism-website-main/",
         "img": "assets/images/all-project/space-tourism.jpg",
         "tags":[ "html", "scss", "js"],
-        "codeSource": null,
+        "codeSource": "https://github.com/niamordev/space-tourism-website-main",
         "level": "bigProject",
         "importantProject": false
     },
