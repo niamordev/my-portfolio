@@ -46,7 +46,6 @@ header {
   position: fixed;
   z-index: 1;
   background: #171b20;
-  width: 100vw;
   padding: 20px;
   margin: auto;
   left: 0;
@@ -55,6 +54,8 @@ header {
 
 nav .navbar-brand {
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 nav #hamburger {
   position: relative;
@@ -133,8 +134,8 @@ nav .nav-large-screen {
 }
 
 @media screen and (min-width: 600px) {
-  .mobile {
-    display: none;
+  .navbar-brand {
+    display: none !important;
   }
   .nav-large-screen {
     display: flex !important;
@@ -187,7 +188,7 @@ footer #myEmail {
 #introduction .logo {
   position: absolute;
   top: 5px;
-  right: 5px;
+  left: 5px;
   width: 70px;
   z-index: 3;
 }
