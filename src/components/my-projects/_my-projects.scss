@@ -16,6 +16,48 @@
     gap: 40px;
   }
 
+  .filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    button {
+      background: transparent;
+      border: none;
+      padding: 10px 10px;
+      transition: 0.4s;
+      cursor: pointer;
+      position: relative;
+      font-size: 1rem;
+      font-weight: 700;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 10%;
+        height: 2px;
+        background-color: $colorBorder;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.4s;
+      }
+
+      &:hover::after {
+        background-color: $blue;
+        width: 100%;
+      }
+    }
+
+    .btn-filter-selected {
+      color: $blue;
+      &::after {
+        background-color: $blue;
+        width: 100%;
+      }
+    }
+  }
+
   .intro {
     display: flex;
     flex-wrap: wrap;

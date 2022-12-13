@@ -6,6 +6,12 @@ import DataProjects from "../../data/DataProjects.json";
 export default function MyProjects({ opacity }) {
   const [dataProjects, setDataProjects] = useState([]);
 
+  const [filters, setFilters] = useState('')
+
+
+  const handleFilterProjects = (e) => {
+    setFilters(e)
+  }
 
   useEffect(() => {
     setDataProjects(DataProjects);
@@ -24,9 +30,15 @@ export default function MyProjects({ opacity }) {
                 website)
               </p>
             </span>
+            <div className="filter">
+              <button onClick={() => handleFilterProjects('')} className={filters==='' ?"btn-filter-selected" : null}>All</button>
+              <button onClick={() => handleFilterProjects('bigProject')} className={filters==='bigProject' ?"btn-filter-selected" : null}>Big projects</button>
+              <button onClick={() => handleFilterProjects('smallProject')} className={filters==='smallProject' ?"btn-filter-selected" : null}>Small projects</button>
+            </div>
 
             <div className="all-projects">
               {dataProjects.map((project) => {
+                if(project.level === filters ||filters === '')
                 return (
                   <div>
                     <a

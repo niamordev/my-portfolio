@@ -6,6 +6,17 @@
         "img": "assets/images/all-project/ecommerce-audiophile.png",
         "tags":[ "scss", "js", "reactjs"],
         "codeSource": "https://github.com/niamordev/ecommerce-audiophile-vite-project",
+        "level": "bigProject",
+        "importantProject": true
+    },
+
+    {
+        "id": 9,
+        "link": "https://niamordev.github.io/countries-app/",
+        "img": "assets/images/all-project/country-app.png",
+        "tags":[ "scss", "js", "reactjs"],
+        "codeSource": "https://github.com/niamordev/countries-app/",
+        "level": "bigProject",
         "importantProject": true
     },
 
@@ -15,23 +26,18 @@
         "img": "assets/images/all-project/art-gallery-website.png",
         "tags":[ "scss", "js", "html"],
         "codeSource": null,
+        "level": "bigProject",
         "importantProject": false
     },
 
-    {
-        "id": 9,
-        "link": "https://niamordev.github.io/countries-app/",
-        "img": "assets/images/all-project/country-app.png",
-        "tags":[ "scss", "js", "reactjs"],
-        "codeSource": "https://github.com/niamordev/countries-app/",
-        "importantProject": true
-    },
+
     {
         "id": 1,
         "link": "https://niamordev.github.io/space-tourism-website-main/index.html",
         "img": "assets/images/all-project/space-tourism.jpg",
         "tags":[ "html", "scss", "js"],
         "codeSource": null,
+        "level": "bigProject",
         "importantProject": false
     },
     {
@@ -40,6 +46,7 @@
         "img": "assets/images/all-project/product.jpg",
         "tags":[ "html", "scss", "js"],
         "codeSource": null,
+        "level": "bigProject",
         "importantProject": false
     },
     {
@@ -48,6 +55,7 @@
         "img": "assets/images/all-project/switcher.jpg",
         "tags":[ "html", "scss", "js"],
         "codeSource": null,
+        "level": "smallProject",
         "importantProject": false
     },
     {
@@ -56,6 +64,7 @@
         "img": "assets/images/all-project/blog-page.jpg",
         "tags":[ "html", "scss", "js"],
         "codeSource": null,
+        "level": "smallProject",
         "importantProject": false
     },
     {
@@ -64,6 +73,7 @@
         "img": "assets/images//all-project/design-page.jpg",
         "tags":[ "html", "css", "js"],
         "codeSource": null,
+        "level": "smallProject",
         "importantProject": false
     },
     {
@@ -72,6 +82,7 @@
         "img": "assets/images/all-project/room.jpg",
         "tags":[ "html", "scss", "js"],
         "codeSource": null,
+        "level": "smallProject",
         "importantProject": false
     },
 
@@ -81,6 +92,7 @@
         "img": "assets/images/all-project/easybank.jpg",
         "tags":[ "html", "css", "js"],
         "codeSource": null,
+        "level": "smallProject",
         "importantProject": false
     }
 ]
