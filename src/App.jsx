@@ -15,9 +15,7 @@ function App() {
   const [dataProject, setDataProject] = useState([]);
 
   
-  const handleClickScrollNav = () => {
-    ref.current?.scrollIntoView({behavior: 'smooth'});
-  };
+
 
 
   useEffect(() => {
@@ -53,11 +51,11 @@ function App() {
     )
   }
 
-  const slideLeftToRight = (elem, delay, duration ) => {
+  const slideRightToLeft = (elem, delay, duration ) => {
     gsap.fromTo(
       elem,
       {
-        translateX:-900,
+        translateX:900,
       },
       {
         translateX:0,
@@ -73,7 +71,7 @@ function App() {
   return (
     <>
     <header>
-    <Nav  slideLeftToRight={slideLeftToRight}/>
+    <Nav  slideRightToLeft={slideRightToLeft}/>
     </header>
     <main>
       <Introduction opacity={opacity} slideTopToBottom={slideTopToBottom} />

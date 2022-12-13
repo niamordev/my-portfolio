@@ -110,7 +110,7 @@ nav .content-nav-mobile {
   display: flex;
   flex-direction: column;
   background-color: #21262e;
-  left: 0;
+  right: 0;
   top: 0;
   bottom: 0;
   padding: 100px 15px 15px 15px;

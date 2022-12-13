@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export default function Nav({ slideLeftToRight }) {
+export default function Nav({ slideRightToLeft }) {
   const [showNavMobile, setShowNavMobile] = useState(false);
 
   const handleShowNavMobile = () => {
@@ -8,7 +8,7 @@ export default function Nav({ slideLeftToRight }) {
   };
 
   useEffect(() => {
-    slideLeftToRight(".content-nav-mobile", "0", ".1");
+    slideRightToLeft(".content-nav-mobile", "0", ".1");
   }, [showNavMobile]);
 
   return (
