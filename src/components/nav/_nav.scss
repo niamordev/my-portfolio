@@ -8,6 +8,16 @@ header {
   right: 0;
 }
 
+
+
+.logo {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 70px;
+  z-index: 3;
+}
+
 nav {
   .navbar-brand {
     width: 100%;
@@ -125,6 +135,16 @@ nav {
     a:hover {
       color: $blue;
       border-bottom: 3px solid $blue;
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 1144px) {
+  header {
+    .logo {
+      width: 100px;
     }
   }
 }

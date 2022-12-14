@@ -13,6 +13,8 @@ export default function Nav({ slideRightToLeft }) {
 
   return (
     <nav>
+      <img src="../../../my-portfolio/logo.png" alt="" className="logo" />
+
       <div className="navbar-brand mobile">
         <button
           onClick={() => handleShowNavMobile()}

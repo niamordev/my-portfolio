@@ -52,6 +52,14 @@ header {
   right: 0;
 }
 
+.logo {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 70px;
+  z-index: 3;
+}
+
 nav .navbar-brand {
   width: 100%;
   display: flex;
@@ -152,6 +160,11 @@ nav .nav-large-screen {
     border-bottom: 3px solid #a3b8ef;
   }
 }
+@media screen and (min-width: 1144px) {
+  header .logo {
+    width: 100px;
+  }
+}
 .blue-text {
   color: #a3b8ef;
 }
@@ -184,13 +197,6 @@ footer #myEmail {
   justify-content: center;
   align-items: center;
   max-height: 700px;
-}
-#introduction .logo {
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  width: 70px;
-  z-index: 3;
 }
 #introduction .txt-home {
   display: flex;
@@ -229,11 +235,6 @@ footer #myEmail {
   position: fixed;
 }
 
-@media screen and (min-width: 1144px) {
-  #introduction .logo {
-    width: 130px;
-  }
-}
 #myProjects {
   display: flex;
   flex-direction: column;
