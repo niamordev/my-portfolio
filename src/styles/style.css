@@ -176,6 +176,12 @@ nav .nav-large-screen {
   padding-bottom: 40px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -239,8 +245,7 @@ footer #myEmail {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin: 100px 0 100px 0;
-  padding-top: 100px;
+  margin: 0 0 100px 0;
 }
 #myProjects .title {
   width: -webkit-fit-content;
@@ -356,7 +361,6 @@ footer #myEmail {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  padding-top: 100px;
 }
 #about .title {
   width: -webkit-fit-content;

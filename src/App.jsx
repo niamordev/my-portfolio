@@ -12,7 +12,7 @@ import { ScrollToPlugin } from 'gsap/dist/ScrollToPlugin';
 gsap.registerPlugin(ScrollToPlugin);
 
 function App() {
-  const [dataProject, setDataProject] = useState([]);
+  const [dataProjects, setDataProjects] = useState([]);
 
   
 
@@ -76,7 +76,7 @@ function App() {
     <main>
       <Introduction opacity={opacity} slideTopToBottom={slideTopToBottom} />
       <About />
-      <MyProjects opacity={opacity} />
+      <MyProjects dataProjects={dataProjects} opacity={opacity} />
       </main>
       <Footer />
 

@@ -3,8 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import DataProjects from "../../data/DataProjects.json";
 
-export default function MyProjects({ opacity }) {
-  const [dataProjects, setDataProjects] = useState([]);
+export default function MyProjects({ dataProjects }) {
 
   const [filters, setFilters] = useState("");
 
@@ -12,9 +11,7 @@ export default function MyProjects({ opacity }) {
     setFilters(e);
   };
 
-  useEffect(() => {
-    setDataProjects(DataProjects);
-  });
+
   return (
     <section id="myProjects">
       <h1 className="title">My project</h1>

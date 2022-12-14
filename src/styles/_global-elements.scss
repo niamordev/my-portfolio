@@ -8,3 +8,9 @@
   max-width: 1000px;
   padding-bottom: 40px;
 }
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}

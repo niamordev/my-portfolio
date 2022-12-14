@@ -5,7 +5,7 @@ export default function Home({ handleTest, opacity }) {
 
   useEffect(() => {
     opacity("#text", ".6", "2")
-    opacity("#text1", "2", "2")
+    opacity("#text1", "1.5", "2")
     opacity("#text2", "3", "2")
     opacity("#btn1", "3", "2")
   }, [])
