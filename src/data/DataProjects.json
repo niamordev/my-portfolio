@@ -1,95 +1,76 @@
 [
-    
-    {
-        "name": "ecommerce-audiophile-vite-project",
-        "link": "https://niamordev.github.io/ecommerce-audiophile-vite-project/",
-        "img": "assets/images/all-project/ecommerce-audiophile.png",
-        "tags":[ "scss", "js", "reactjs"],
-        "codeSource": "https://github.com/niamordev/ecommerce-audiophile-vite-project",
-        "level": "bigProject"
-    },
-    {
-        "name": "designo-multipage-website-master",
-        "link": "https://niamordev.github.io/designo-multipage-website-master/",
-        "img": "assets/images/all-project/designo-multipage-website-master.png",
-        "tags":[ "scss", "js", "reactjs"],
-        "codeSource": "https://github.com/niamordev/designo-multipage-website-master",
-        "level": "bigProject"
-    },
-    {
-        "name": "countries-app",
-        "link": "https://niamordev.github.io/countries-app/",
-        "img": "assets/images/all-project/country-app.png",
-        "tags":[ "scss", "js", "reactjs"],
-        "codeSource": "https://github.com/niamordev/countries-app/",
-        "level": "bigProject"
-    },
+  {
+    "name": "ecommerce-audiophile-vite-project",
+    "link": "https://niamordev.github.io/ecommerce-audiophile-vite-project/",
+    "img": "assets/images/all-project/ecommerce-audiophile.png",
+    "tags": ["scss", "reactjs"],
+    "codeSource": "https://github.com/niamordev/ecommerce-audiophile-vite-project",
+    "description": "An e-commerce website with a cart integrated and a page to checkout",
+    "useReact": true
+  },
+  {
+    "name": "photosnap-multi-page-website",
+    "link": "https://niamordev.github.io/photosnap-multi-page-website/",
+    "img": "assets/images/all-project/photosnap-multi-page-website.png",
+    "tags": ["scss", "reactjs"],
+    "codeSource": "https://github.com/niamordev/photosnap-multi-page-website",
+    "description": "A design multipage website",
+    "useReact": true
+  },
+  {
+    "name": "designo-multipage-website-master",
+    "link": "https://niamordev.github.io/designo-multipage-website-master/",
+    "img": "assets/images/all-project/designo-multipage-website-master.png",
+    "tags": ["scss", "reactjs"],
+    "codeSource": "https://github.com/niamordev/designo-multipage-website-master",
+    "description": "A design multipage website",
+    "useReact": true
+  },
+  {
+    "name": "countries-app",
+    "link": "https://niamordev.github.io/countries-app/",
+    "img": "assets/images/all-project/country-app.png",
+    "tags": ["scss", "reactjs", "api"],
+    "codeSource": "https://github.com/niamordev/countries-app/",
+    "description": "A website with all countries and details countries using an API and React",
+    "useReact": true
+  },
 
-    {
-        "name": "art-gallery-website",
-        "link": "https://niamordev.github.io/art-gallery-website/index.html",
-        "img": "assets/images/all-project/art-gallery-website.png",
-        "tags":[ "scss", "js", "html"],
-        "codeSource": "https://github.com/niamordev/art-gallery-website",
-        "level": "bigProject"
-    },
+  {
+    "name": "art-gallery-website",
+    "link": "https://niamordev.github.io/art-gallery-website/index.html",
+    "img": "assets/images/all-project/art-gallery-website.png",
+    "tags": ["scss", "js", "html"],
+    "codeSource": "https://github.com/niamordev/art-gallery-website",
+    "description": "A design multipage website",
+    "useReact": false
+  },
 
-
-    {
-        "name": "space-tourism-website-main",
-        "link": "https://niamordev.github.io/space-tourism-website-main/",
-        "img": "assets/images/all-project/space-tourism.jpg",
-        "tags":[ "reactjs", "scss", "js"],
-        "codeSource": "https://github.com/niamordev/space-tourism-website-main",
-        "level": "bigProject"
-    },
-    {
-        "name": "ecommerce-product-page-main",
-        "link": "https://niamordev.github.io/ecommerce-product-page-main",
-        "img": "assets/images/all-project/product.jpg",
-        "tags":[ "html", "scss", "js"],
-        "codeSource": "https://github.com/niamordev/ecommerce-product-page-main",
-        "level": "bigProject"
-    },
-    {
-        "name": "social-media-dashboard-with-theme-switcher-master",
-        "link": "https://niamordev.github.io/social-media-dashboard-with-theme-switcher-master",
-        "img": "assets/images/all-project/switcher.jpg",
-        "tags":[ "html", "scss", "js"],
-        "codeSource": null,
-        "level": "smallProject"
-    },
-    {
-        "name": "news-homepage-main",
-        "link": "https://niamordev.github.io/news-homepage-main",
-        "img": "assets/images/all-project/blog-page.jpg",
-        "tags":[ "html", "scss", "js"],
-        "codeSource": null,
-        "level": "smallProject"
-    },
-    {
-        "name": "manage-landing-page-master",
-        "link": "https://niamordev.github.io/manage-landing-page-master",
-        "img": "assets/images//all-project/design-page.jpg",
-        "tags":[ "html", "css", "js"],
-        "codeSource": null,
-        "level": "smallProject"
-    },
-    {
-        "name": "room-homepage-master",
-        "link": "https://niamordev.github.io/room-homepage-master",
-        "img": "assets/images/all-project/room.jpg",
-        "tags":[ "html", "scss", "js"],
-        "codeSource": null,
-        "level": "smallProject"
-    },
-
-    {
-        "name": "easybank-landing-page-master",
-        "link": "https://niamordev.github.io/easybank-landing-page-master",
-        "img": "assets/images/all-project/easybank.jpg",
-        "tags":[ "html", "css", "js"],
-        "codeSource": null,
-        "level": "smallProject"
-    }
+  {
+    "name": "space-tourism-website-main",
+    "link": "https://niamordev.github.io/space-tourism-website-main/",
+    "img": "assets/images/all-project/space-tourism.jpg",
+    "tags": ["reactjs", "scss"],
+    "codeSource": "https://github.com/niamordev/space-tourism-website-main",
+    "description": "A design multipage website using React and with transitions on pages",
+    "useReact": true
+  },
+  {
+    "name": "ecommerce-product-page-main",
+    "link": "https://niamordev.github.io/ecommerce-product-page-main",
+    "img": "assets/images/all-project/product.jpg",
+    "tags": ["html", "scss", "js"],
+    "codeSource": "https://github.com/niamordev/ecommerce-product-page-main",
+    "description": "An e-commerce single page product with a cart integrated",
+    "useReact": false
+  },
+  {
+    "name": "room-homepage-master",
+    "link": "https://niamordev.github.io/room-homepage-master",
+    "img": "assets/images/all-project/room.jpg",
+    "tags": ["html", "scss", "js"],
+    "codeSource": "https://github.com/niamordev/room-homepage-master",
+    "description": "A design multipage website with button left and right to switch of content",
+    "useReact": false
+  }
 ]

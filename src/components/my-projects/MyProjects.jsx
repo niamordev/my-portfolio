@@ -4,13 +4,11 @@ import { useEffect } from "react";
 import DataProjects from "../../data/DataProjects.json";
 
 export default function MyProjects({ dataProjects }) {
-
-  const [filters, setFilters] = useState("");
+  const [filters, setFilters] = useState(null);
 
   const handleFilterProjects = (e) => {
     setFilters(e);
   };
-
 
   return (
     <section id="myProjects">
@@ -28,54 +26,72 @@ export default function MyProjects({ dataProjects }) {
         </span>
         <div className="filter">
           <button
-            onClick={() => handleFilterProjects("")}
-            className={filters === "" ? "btn-filter-selected" : null}
+            onClick={() => handleFilterProjects(null)}
+            className={filters === null ? "btn-filter-selected" : null}
           >
             All
           </button>
           <button
-            onClick={() => handleFilterProjects("bigProject")}
-            className={filters === "bigProject" ? "btn-filter-selected" : null}
+            onClick={() => handleFilterProjects(true)}
+            className={filters === true? "btn-filter-selected" : null}
           >
-            Big projects
+            With React
           </button>
           <button
-            onClick={() => handleFilterProjects("smallProject")}
+            onClick={() => handleFilterProjects(false)}
             className={
-              filters === "smallProject" ? "btn-filter-selected" : null
+              filters === false? "btn-filter-selected" : null  
             }
           >
-            Small projects
+            Without React
           </button>
         </div>
 
         <div className="all-projects">
           {dataProjects.map((project) => {
-            if (project.level === filters || filters === "")
+            console.log(project.description);
+            if (project.useReact === filters || filters === null)
               return (
                 <div>
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <div className="container-project">
-                      <img src={project.img} alt="" />
-                      <div className="description">
-                        <div className="tags">
-                          {project.tags.map((tag) => (
-                            <p>{tag}</p>
-                          ))}
-                        </div>
+                  <div className="container-project">
+                    <img src={project.img} alt="" />
+                    <div className="description">
+                      <div className="tags">
+                        {project.tags.map((tag) => (
+                          <p>{tag}</p>
+                        ))}
+                      </div>
+                      <div className="">
+                        <p>{project.description}</p>
+                      </div>
+
+                      <div className="links-to-projects">
+                        <a
+                          href={project.codeSource}
+                          target="_blank"
+                          className="description-link"
+                        >
+                          <img
+                            src="../../assets/icons/icon-open-new-tab-blue.svg"
+                            alt=""
+                          />{" "}
+                          Source code
+                        </a>
+
+                        <a
+                          className="open-project description-link"
+                          href={project.link}
+                          target="_blank"
+                        >
+                          <img
+                            src="../../assets/icons/icon-open-new-tab.svg"
+                            alt=""
+                          />{" "}
+                          Visit website
+                        </a>
                       </div>
                     </div>
-                  </a>
-
-                  {project.codeSource !== null ? (
-                    <a href={project.codeSource} target="_blank">
-                      Source code
-                    </a>
-                  ) : null}
+                  </div>
                 </div>
               );
           })}

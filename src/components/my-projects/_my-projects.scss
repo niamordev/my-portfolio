@@ -5,6 +5,8 @@
   margin: 0 0 100px 0;
   padding-top: 100px;
 
+  .container-project {
+  }
   .title {
     width: fit-content;
     border-bottom: 4px solid $blue;
@@ -69,35 +71,77 @@
     align-items: center;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px 20px;
 
     .container-project {
-      border-radius: 10px;
       overflow: hidden;
-      filter: brightness(0.8);
-      cursor: pointer;
       transition: 0.3s;
-      border: 2px solid #252525;
       background-color: #252525;
     }
 
+    .links-to-projects {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
     .container-project:hover {
-      border-radius: 10px;
-      filter: brightness(1) !important;
-      scale: 1.05;
     }
     img {
-      max-width: 400px;
       width: 100%;
     }
 
     .description {
+      padding: 20px;
+      display: flex;
+      flex-direction: column-reverse;
+      text-align: left;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 20px;
+      height: 140px;
+
+      .description-link {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: -5px;
+          width: 0%;
+          height: 1px;
+          background-color: $blue;
+          transform: translateX(-50%);
+          left: 50%;
+          transition: .4s;
+        }
+
+        &:hover{
+          &::before {
+            width: 90%;
+          }
+        }
+        img {
+          width: 20px;
+        }
+      }
+
+      .open-project {
+        color: $white;
+
+        &::before{
+          background-color: $white;
+        }
+      }
+
       .tags {
         display: flex;
         gap: 10px;
         justify-content: center;
-        padding: 10px;
       }
       .tags p {
         color: #e2e2e2;
@@ -124,8 +168,5 @@
 
 @media screen and (min-width: 700px) {
   #myProjects {
-    .container-project {
-      filter: brightness(0.5) !important;
-    }
   }
 }
