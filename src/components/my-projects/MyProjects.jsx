@@ -72,7 +72,7 @@ export default function MyProjects({ dataProjects }) {
                           className="description-link"
                         >
                           <img
-                            src="../../assets/icons/icon-open-new-tab-blue.svg"
+                            src="../../my-portfolio/assets/icons/icon-open-new-tab-blue.svg"
                             alt=""
                           />{" "}
                           Source code
@@ -84,7 +84,7 @@ export default function MyProjects({ dataProjects }) {
                           target="_blank"
                         >
                           <img
-                            src="../../assets/icons/icon-open-new-tab.svg"
+                            src="../../my-portfolio/assets/icons/icon-open-new-tab.svg"
                             alt=""
                           />{" "}
                           Visit website
