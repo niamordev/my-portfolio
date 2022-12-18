@@ -179,7 +179,7 @@ nav .nav-large-screen {
 main {
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 50px;
 }
 
 footer {
@@ -246,6 +246,7 @@ footer #myEmail {
   flex-direction: column;
   gap: 30px;
   margin: 0 0 100px 0;
+  padding-top: 100px;
 }
 #myProjects .title {
   width: -webkit-fit-content;
@@ -361,6 +362,7 @@ footer #myEmail {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  padding-top: 100px;
 }
 #about .title {
   width: -webkit-fit-content;
