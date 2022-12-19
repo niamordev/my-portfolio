@@ -8,11 +8,21 @@ $colorComponents: #494298;
 $colorBorder: rgba(255, 255, 255, 0.487);
 $colorBlack: #040307;
 $white: #fff;
-$blue: #a3b8ef;
-$text: #b6beca;
+$blue: #5e50fb;
+$text: #3b3b3b;
 $black1 :#13171b;
 $black2 : #171b20;
 $black3 :#21262e;
+
+
+
+
+$newWhite : rgb(245, 245, 245);
+$newDarkPurple : #5e50fb;
+$newPurple : #8c82fc;
+$newLightPurple : #bab4fd;
+$newCream : #e6e6e6;
+$newVeryLightPurple : #e8e6fe;
 
 
 * {
@@ -30,7 +40,7 @@ $black3 :#21262e;
 }
 
 a {
-  color: rgb(138, 174, 230);
+  color: $blue;
 }
 
 
@@ -49,7 +59,7 @@ body {
   background-color: $colorBlack;
   overflow-x: hidden;
   width: 100vw;
-  background-color: $black2;
+  background-color: $newCream;
 }
 
 h1 {

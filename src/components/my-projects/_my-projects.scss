@@ -77,7 +77,8 @@
     .container-project {
       overflow: hidden;
       transition: 0.3s;
-      background-color: #252525;
+      background-color: $newWhite;
+      border-radius: 10px;
     }
 
     .links-to-projects {
@@ -131,7 +132,7 @@
       }
 
       .open-project {
-        color: $white;
+        color: $text;
 
         &::before{
           background-color: $white;
@@ -144,7 +145,7 @@
         justify-content: center;
       }
       .tags p {
-        color: #e2e2e2;
+        color: $newPurple;
         text-transform: uppercase;
         font-weight: 600;
       }
