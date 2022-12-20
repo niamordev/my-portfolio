@@ -122,16 +122,17 @@ nav .content-nav-mobile {
   right: 0;
   top: 0;
   bottom: 0;
-  padding: 100px 45px 45px 45px;
+  padding: 100px 10px 15px 15px;
   justify-content: unset;
   gap: 20px;
-  width: 30%;
+  width: 170px;
   transform: translateX(0);
   transition: 0.4s;
   border-left: 3px solid rgba(0, 0, 0, 0.034);
 }
 nav .content-nav-mobile a {
   color: #3b3b3b;
+  font-size: 1.1rem;
   transition: 0.2s;
 }
 nav .content-nav-mobile a:hover {

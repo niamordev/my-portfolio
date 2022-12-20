@@ -93,16 +93,17 @@ nav {
     right: 0;
     top: 0;
     bottom: 0;
-    padding: 100px 45px 45px 45px;
+    padding: 100px 10px 15px 15px;
     justify-content: unset;
     gap: 20px;
-    width: 30%;
+    width: 170px;
     transform: translateX(0);
     transition: .4s;
     border-left: 3px solid rgba(0, 0, 0, 0.034);
 
     a {
       color: $text;
+      font-size: 1.1rem;
       transition: .2s;
 
       &:hover {
