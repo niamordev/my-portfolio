@@ -14,7 +14,7 @@
     "img": "assets/images/all-project/entertainment-web-app.png",
     "tags": ["html", "scss", "js", "reactjs"],
     "codeSource": "https://github.com/niamordev/entertainment-web-app/",
-    "description": "An website to find films/series with a login/logout interface and bookmarked videos when the user is login",
+    "description": "An website to find films/series with a login/logout interface",
     "useReact": true
   },
   {
