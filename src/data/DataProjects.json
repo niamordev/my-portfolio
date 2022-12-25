@@ -9,6 +9,15 @@
     "useReact": true
   },
   {
+    "name": "entertainment-web-app",
+    "link": "https://niamordev.github.io/entertainment-web-app/",
+    "img": "assets/images/all-project/entertainment-web-app.png",
+    "tags": ["html", "scss", "js", "reactjs"],
+    "codeSource": "https://entertainment-web-app-five.vercel.app/",
+    "description": "An website to find films/series with a login/logout interface and bookmarked videos when the user is login",
+    "useReact": true
+  },
+  {
     "name": "photosnap-multi-page-website",
     "link": "https://niamordev.github.io/photosnap-multi-page-website/",
     "img": "assets/images/all-project/photosnap-multi-page-website.png",
@@ -21,7 +30,7 @@
     "name": "designo-multipage-website-master",
     "link": "https://niamordev.github.io/designo-multipage-website-master/",
     "img": "assets/images/all-project/designo-multipage-website-master.png",
-    "tags": ["html", "scss", "js","reactjs"],
+    "tags": ["html", "scss", "js", "reactjs"],
     "codeSource": "https://github.com/niamordev/designo-multipage-website-master",
     "description": "A design multipage website",
     "useReact": true
@@ -50,7 +59,7 @@
     "name": "space-tourism-website-main",
     "link": "https://niamordev.github.io/space-tourism-website-main/",
     "img": "assets/images/all-project/space-tourism.jpg",
-    "tags": ["html", "scss", "js","reactjs"],
+    "tags": ["html", "scss", "js", "reactjs"],
     "codeSource": "https://github.com/niamordev/space-tourism-website-main",
     "description": "A design multipage website using React and with transitions on pages",
     "useReact": true
