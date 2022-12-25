@@ -10,10 +10,10 @@
   },
   {
     "name": "entertainment-web-app",
-    "link": "https://niamordev.github.io/entertainment-web-app/",
+    "link": "https://entertainment-web-app-five.vercel.app/",
     "img": "assets/images/all-project/entertainment-web-app.png",
     "tags": ["html", "scss", "js", "reactjs"],
-    "codeSource": "https://entertainment-web-app-five.vercel.app/",
+    "codeSource": "https://github.com/niamordev/entertainment-web-app/",
     "description": "An website to find films/series with a login/logout interface and bookmarked videos when the user is login",
     "useReact": true
   },
